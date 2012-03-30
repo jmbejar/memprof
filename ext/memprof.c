@@ -1952,8 +1952,8 @@ Init_memprof()
   install_gc_tracer();
   install_objects_tracer();
   install_fd_tracer();
-  install_mysql_tracer();
-  install_postgres_tracer();
+  //install_mysql_tracer();
+  //install_postgres_tracer();
   install_memcache_tracer();
   install_resources_tracer();
 
